@@ -1,1 +1,400 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+//* You can add global styles to this file, and also import other style files *//
+// You can add global styles to this file, and also import other style files //
+@import url('https:////fonts.googleapis.com//css2?family=Noto+Serif&family=Roboto+Slab:wght@300;500&family=Sarabun:wght@200&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+
+:root {
+
+
+    --primary-light: #04D8AC;
+    --primary-dark: #04D8AC;
+    --primary-black: rgb(0, 0, 0);
+    --primary-grey: rgb(178 173 173);
+    --primary-white: rgb(255, 255, 255);
+
+
+
+    --white-light: #FEFBF7;
+    --white-default: #e9ecec;
+    --white-dark: #c4cdd0;
+    --white-dark2: #999999;
+
+
+    --color-green: #04D8AC;
+
+
+    --padding-extra-small: 1px;
+    --padding-small: 4px;
+    --padding-medium: 7px;
+    --padding-large: 11px;
+    --padding-extra-large: 15px;
+    --padding-xx-large: 20px;
+
+
+
+
+    --font-extra-small: 7px;
+    --font-small: 13px;
+    --font-medium: 17px;
+    --font-large: 21px;
+    --font-extra-large: 25px;
+    --font-xx-large: 27px;
+    --font-xxx-large: 28px;
+
+}
+
+@media (min-width:200px) {
+
+    :root {
+
+        --font-extra-small: 7px;
+        --font-small: 13px;
+        --font-medium: 13px;
+        --font-large: 18px;
+        --font-extra-large: 22px;
+        --font-xx-large: 25px;
+        --font-xxx-large: 28px;
+
+
+
+        --padding-extra-small: 5px;
+        --padding-small: 9px;
+        --padding-medium: 14px;
+        --padding-large: 19px;
+        --padding-extra-large: 20px;
+        --padding-xx-large: 20px;
+
+
+        --heading-1: 45px;
+        --heading-home: 25px;
+
+    }
+
+}
+
+@media (min-width:400px) {
+
+    :root {
+
+        --font-extra-small: 7px;
+        --font-small: 13px;
+        --font-medium: 14px;
+        --font-large: 19px;
+        --font-extra-large: 23px;
+        --font-xx-large: 27px;
+        --font-xxx-large: 31px;
+
+
+
+        --padding-extra-small: 7px;
+        --padding-small: 13px;
+        --padding-medium: 17px;
+        --padding-large: 21px;
+        --padding-extra-large: 25px;
+        --padding-xx-large: 20px;
+
+
+        --heading-1: 40px;
+        --heading-home: 25px;
+    }
+
+}
+
+@media (min-width:700px) {
+
+    :root {
+
+        --font-extra-small: 8px;
+        --font-small: 12px;
+        --font-medium: 15px;
+        --font-large: 20px;
+        --font-extra-large: 24px;
+        --font-xx-large: 28px;
+        --font-xxx-large: 32px;
+
+
+        --padding-extra-small: 8px;
+        --padding-small: 14px;
+        --padding-medium: 18px;
+        --padding-large: 22px;
+        --padding-extra-large: 26px;
+        --padding-xx-large: 33px;
+
+        --heading-1: 56px;
+        --heading-home: 28px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    :root {
+        --font-medium: 16px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    :root {
+
+        --font-extra-small: 9px;
+        --font-small: 13px;
+        --font-small-1: 15px;
+        --font-medium: 17px;
+        --font-large: 21px;
+        --font-extra-large: 25px;
+        --font-xx-large: 29px;
+        --font-xxx-large: 33px;
+
+
+
+        --padding-extra-small: 9px;
+        --padding-small: 15px;
+        --padding-medium: 19px;
+        --padding-large: 23px;
+        --padding-extra-large: 27px;
+        --padding-xx-large: 38px;
+
+        --heading-1: 60px;
+        --heading-home: 30px;
+    }
+
+}
+
+@media (min-width:1300px) {
+
+    :root {
+
+        --font-extra-small: 10px;
+        --font-small: 14px;
+        --font-small-1: 18px;
+        --font-medium: 20px;
+        --font-large: 22px;
+        --font-extra-large: 26px;
+        --font-xx-large: 30px;
+        --font-xxx-large: 34px;
+
+
+        --padding-extra-small: 10px;
+        --padding-small: 16px;
+        --padding-medium: 20px;
+        --padding-large: 24px;
+        --padding-extra-large: 28px;
+        --padding-xx-large: 46px;
+
+
+        --heading-1: 62px;
+        --heading-home: 33px;
+    }
+
+}
+
+@media (min-width:1700px) {
+
+    :root {
+        --font-extra-small: 11px;
+        --font-small: 15px;
+        --font-small-1: 19px;
+        --font-medium: 21px;
+        --font-large: 23px;
+        --font-extra-large: 27px;
+        --font-xx-large: 33px;
+        --font-xxx-large: 39px;
+
+        --padding-extra-small: 11px;
+        --padding-small: 17px;
+        --padding-medium: 22px;
+        --padding-large: 25px;
+        --padding-extra-large: 29px;
+        --padding-xx-large: 51px;
+
+
+        --heading-1: 62px;
+        --heading-home: 35px;
+    }
+
+}
+
+@media (min-width:2000px) {
+
+    :root {
+        --font-extra-small: 12px;
+        --font-small: 16px;
+        --font-small-1: 20px;
+        --font-medium: 22px;
+        --font-large: 24px;
+        --font-extra-large: 28px;
+        --font-xx-large: 36px;
+        --font-xxx-large: 44px;
+
+        --padding-extra-small: 12px;
+        --padding-small: 18px;
+        --padding-medium: 23px;
+        --padding-large: 26px;
+        --padding-extra-large: 20px;
+        --padding-xx-large: 56px;
+
+
+        --heading-1: 64px;
+        --heading-home: 35px;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 10px; // Remove scrollbar space //
+    background: white; // Optional: just make scrollbar invisible //
+    padding: 20px;
+    height: 20px;
+    margin: 10px;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8d979b;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button,
+.unselectable,
+.card {
+    -webkit-user-select: none; // Chrome all // Safari all //
+    -moz-user-select: none; // Firefox all //
+    -ms-user-select: none; // IE 10+ //
+    user-select: none; // Likely future // 
+    cursor: pointer;
+}
+
+.borderbackgroundbutton2,
+.borderbackgroundbutton1 {
+    cursor: pointer;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.store-btn-icon {
+    background-color: #000000 !important;
+    border-radius: 40px;
+    max-width: 14rem;
+}
+
+.changeimgmpb {
+    max-width: 2.6vw;
+}
+
+.header-style-22 {
+    font-family: 'Nunito', sans-serif;
+    color: #323232;
+    font-size: calc(var(--font-xxx-large)*1.35);
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 currentColor;
+}
+
+.header-style-2-life {
+    font-family: 'Nunito', sans-serif;
+    color: #323232;
+    font-size: calc(var(--font-xxx-large)*1.25);
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-shadow: 3px 0 currentColor;
+}
+
+.header-style-2 {
+    font-family: 'Nunito', sans-serif;
+    color: #323232;
+    font-size: calc(var(--font-xxx-large)*1.15);
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 currentColor;
+}
+
+@media (max-width:1299px) {
+    .changeimgmpb {
+        max-width: 2.6vw;
+    }
+}
+
+@media (max-width:767px) {
+    .changeimgmpb {
+        max-width: 3.0vw;
+    }
+}
+
+@media (max-width:567px) {
+    .changeimgmpb {
+        max-width: 4.6vw;
+    }
+}
+
+
+@media (max-width:400px) {
+    .changeimgmpb {
+        max-width: 4.8vw;
+    }
+
+    .store-btn-icon {
+        width: 100%;
+    }
+
+    .black_buttons_img {
+        max-width: 1.5rem !important;
+    }
+}
+
+@media (max-width:359px) {
+
+    .black_buttons_img {
+        max-width: 1.3rem !important;
+    }
+}
+
+.main_button_padding {
+    padding: 1.6% 5% !important;
+    border-radius: 14px;
+}
+
+@media (max-width:767px) {
+    .main_button_padding {
+        padding: 0.8rem 2rem !important;
+    }
+}
+
+
+
+
+
+.btns-fontsetting {
+    font-size: var(--font-small);
+    font-family: 'Nunito', sans-serif;
+}
+
+.img-fluid {
+    height: auto !important;
+}

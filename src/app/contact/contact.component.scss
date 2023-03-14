@@ -1,0 +1,133 @@
+* p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.back-img {
+    position: relative;
+    background: url('../../assets/map.png');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+}
+
+.back-color {
+    width: 100%;
+    background-color: rgba($color: #01a585, $alpha: 0.5);
+}
+
+.head1 {
+    font-size: calc(var(--font-xxx-large)*1.4);
+    font-weight: bold;
+    color: #E7E7E7;
+}
+
+.desc1 {
+    font-size: var(--font-medium);
+    color: #E7E7E7;
+}
+
+.head2 {
+    color: #323232;
+    font-size: calc(var(--font-xxx-large) * 1.15);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 currentColor;
+}
+
+.desc2 {
+    color: #323232;
+    font-size: var(--font-medium);
+}
+
+.sub-head {
+    font-size: var(--font-medium);
+    font-weight: bold;
+    color: #323232;
+}
+
+.sub-sub-head {
+    color: rgba(92, 91, 91, 0.768627451);
+    font-size: var(--font-medium);
+}
+
+.svg-set {
+    width: 22px;
+    height: 22px;
+}
+
+.line {
+    width: 30%;
+    height: 1px;
+    border-top: 2px solid #323232;
+}
+
+.border {
+    border-radius: 20px;
+}
+
+
+input[type="text"] {
+    background-color: #E7E7E7;
+    border: 0px;
+    height: 3rem;
+    border-radius: 0.7rem;
+}
+
+
+textarea {
+    background-color: #E7E7E7;
+    border: 0px;
+    resize: none;
+    border-radius: 0.7rem;
+    width: 100%;
+}
+
+textarea:focus {
+    outline: 4px solid #C2DBFE !important;
+}
+
+
+button {
+    color: #04D8AC;
+    background-color: #323232;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.btns-style {
+    font-size: var(--font-small);
+}
+
+.black-back {
+    background-color: #000000 !important;
+    border-radius: 40px;
+    max-width: 14rem;
+}
+
+@media (min-width:768px) {
+    .animate {
+        margin: 0%;
+        margin-top: -6.8vh;
+        z-index: 99;
+    }
+}
+
+@media (max-width:768px) {
+    .social-icon-position {
+        justify-content: center;
+    }
+
+    .animate {
+        margin-top: 2vh;
+    }
+
+    .svg-set {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.img-fluid {
+    height: auto !important;
+}
